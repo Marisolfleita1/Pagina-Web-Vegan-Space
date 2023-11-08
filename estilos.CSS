@@ -244,6 +244,47 @@ nav{
     background-color: black;
 }
 
+#Golosinas{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: overline;
+    background-color: rgb(255, 255, 255);
+}
+#golosinas {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(255, 255, 255);
+}
+#golosinas img{
+    height: 300px;
+    object-fit: cover;
+}
+#golosinas img:hover{
+    background-color: black;
+}
+
+#Más{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: overline;
+    background-color: rgb(245, 240, 240);
+}
+#más {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(245, 240, 240);
+}
+#más img{
+    height: 300px;
+    object-fit: cover;
+}
+#más img:hover{
+    background-color: black;
+}
+
+
 
 
 
