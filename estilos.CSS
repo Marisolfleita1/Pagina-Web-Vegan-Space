@@ -180,3 +180,17 @@ nav{
 
 
 
+
+
+
+#MedallonesyCarnes {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#MedallonesyCarnes img{
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
