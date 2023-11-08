@@ -85,12 +85,98 @@ nav{
 }
 
 
-
-div article img{
+.ContainerPrincipal{
+    padding top: 120px;
+}
+#Presentación img{
     width: 100%;
     height: 590px;
 }
 #Recetas{
-    height: 600px;
     background-color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
+#Recetas>h2{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(123, 207, 152);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Dulces{
+   display: flex;
+   flex-direction: column;
+}
+
+#Dulces>h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(120, 120, 186);
+}
+
+#Saladas{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ #Saladas>h2{
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: rgb(120, 120, 186);
+ }
+ 
+
+.cadaReceta{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    padding-top: 90px;
+    border-bottom: solid 3px 
+}
+.cadaReceta img{
+    height: 400px;
+}
+
+
+.cadaReceta .tituloImagenReceta{
+   
+}
+
+.cadaReceta .tituloImagenReceta h2{
+    padding-bottom: 10px;
+}
+
+.cadaReceta ul {
+    padding-top: 55px;
+    padding-left: 50px;
+    width: 500px;
+}
+
+.cadaReceta ul h3{
+    padding-bottom: 20px;
+}
+
+.cadaReceta ul li{
+    padding-top: 10px;
+}
+
+.cadaReceta ol{
+    padding-top: 55px;
+    padding-left: 50px;
+}
+
+.cadaReceta ol h3{
+    padding-bottom: 20px;
+}
+
+.cadaReceta ol li{
+    padding-top: 10px;
+}
+
+
+
+
