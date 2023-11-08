@@ -187,7 +187,46 @@ nav{
     background-color: rgb(245, 240, 240);
 }
 
+#LechesyHelados{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: overline;
+    background-color: rgb(245, 240, 240);
+}
+#lechesyhelados {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(245, 240, 240);
+}
+#lechesyhelados img{
+    height: 300px;
+    object-fit: cover;
+}
+#lechesyhelados img:hover{
+    background-color: black;
+}
+
+#Untables{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: overline;
+    background-color: rgb(255, 255, 255);
+}
+#untables {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(255, 255, 255);
+}
+#untables img{
+    height: 300px;
+    object-fit: cover;
+}
+
 #MedallonesyCarnes{
+    padding-top: 30px;
+    padding-bottom: 10px;
     text-align: center;
     text-decoration: overline;
     background-color: rgb(245, 240, 240);
@@ -203,8 +242,8 @@ nav{
 }
 #medallonesycarnes img:hover{
     background-color: black;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
 
 
 
