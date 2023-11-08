@@ -181,16 +181,32 @@ nav{
 
 
 
+#Productos{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(245, 240, 240);
+}
 
-
-#MedallonesyCarnes {
+#MedallonesyCarnes{
+    text-align: center;
+    text-decoration: overline;
+    background-color: rgb(245, 240, 240);
+}
+#medallonesycarnes {
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    background-color: rgb(245, 240, 240);
 }
-#MedallonesyCarnes img{
+#medallonesycarnes img{
     height: 300px;
     object-fit: cover;
 }
+#medallonesycarnes img:hover{
+    background-color: black;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
 
 
 
