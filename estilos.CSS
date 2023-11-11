@@ -126,14 +126,14 @@ nav{
  #Saladas>h2{
      text-align: center;
      font-family: Arial, Helvetica, sans-serif;
-     background-color: rgb(120, 120, 186);
+     background-color: rgb(223, 223, 234);
  }
  
 
 .cadaReceta{
     display: flex;
     flex-direction: row;
-    background-color: aqua;
+    background-color: rgb(235, 225, 239);
     padding-top: 90px;
     border-bottom: solid 3px 
 }
@@ -286,6 +286,113 @@ nav{
 
 
 
+
+
+#Información>section .docus{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+#Información section img{
+    height: 300px;
+    padding: 5px;
+}
+
+.row{
+    padding: 20px;
+}
+
+.row h2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px){
+    .cadaReceta{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+}
+
+
+
+
+@media (min-width:500px) and (max-width:800px ){
+    #lechesyhelados {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }   
+}
+@media (max-width:500px) {
+    #lechesyhelados {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }   
+    
+}
+
+@media (min-width:600px) and (max-width:800px ){
+    #untables {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }   
+}
+@media (max-width:600px) {
+    #untables {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }      
+}
+
+@media (min-width:600px) and (max-width:800px ){
+    #medallonesycarnes {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }   
+}
+@media (max-width:600px) {
+    #medallonesycarnes {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    } 
+}
+@media (min-width:700px) and (max-width:800px) {
+        #golosinas {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }   
+}
+@media (max-width:700px) {
+        #golosinas {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        } 
+}
+
+@media (min-width:700px) and (max-width:900px) {
+    #más {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }   
+}
+@media (max-width:700px) {
+    #más {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    } 
+}
+    
 
 
 
